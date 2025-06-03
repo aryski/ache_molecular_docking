@@ -1,0 +1,50 @@
+--- Vina Standard Output ---
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : vina
+Rigid receptor: B605/4EY7_B605.pdbqt
+Ligand: common_ligands_pdbqt/CHEMBL536047_i0-again1.pdbqt
+Grid center: X 10.634 Y -56.163 Z -23.873
+Grid size  : X 26.73 Y 34.754 Z 25.458
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: -1391897540) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -10.06          0          0
+   2       -9.875      2.827      5.165
+   3       -9.806       2.15      3.417
+   4       -9.077        2.5       3.43
+   5       -8.971      8.239      10.49
+   6       -8.245      1.829      3.451
+   7       -8.122      10.01      12.38
+   8       -7.923      10.46      12.88
+   9       -7.629      9.603      11.89
+
+--- Vina Standard Error ---
