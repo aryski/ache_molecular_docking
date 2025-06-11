@@ -1,0 +1,18 @@
+# RAPORT ANALIZY DYNAMIKI MOLEKULARNEJ
+==================================================
+Trajektoria: nvm_outputs/CHEMBL4218191_A604_output/trajectories/False_production_trajectory.xtc
+Topologia: nvm_outputs/CHEMBL4218191_A604_output/topologies/False_production_topology.pdb
+Ligand: LIG
+Liczba klatek: 500
+
+## STABILNOŚĆ SYSTEMU (RMSD)
+• Średnie RMSD białka (Cα): 1.06 ± 0.31 Å
+• Średnie RMSD liganda: 0.37 ± 0.10 Å
+Ligand jest stabilny w kieszeni wiążącej
+
+## RUCHLIWOŚĆ SYSTEMU (RMSF)
+• Średnie RMSF białka: 0.76 ± 0.22 Å
+• Najbardziej ruchliwe reszty: [0, 1, 2, 3, 5]
+
+## REKOMENDACJE
+• Przeprowadź dodatkowe analizy energii wiązania (MM-PBSA/GBSA)
